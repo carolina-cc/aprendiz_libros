@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-compatible"content="IE=edge">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title> Mi cuenta </title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image:url('img/libro.png');">
+    
+     <header>
+		 <img src="img/aprendiz-logo.png"alt="Nombre del sitio" width="40%" height="300px">
+	 </header>
+	 <nav>
+		
+		 <ul>
+			 <li><a href="index.html">Inicio</a></li>
+			 <li><a href="catalogo.html">Catálogo</a></li>
+			 <li><a href="recomendacion.html">Recomendación</a></li>
+			 <li><a href="contacto.html">Contacto</a></li>
+			 <li><a href="mi_cuenta.html">Mi cuenta</a></li>
+		 </ul>
+		 
+	 </nav>
+	 <main>
+		 
+		 <h2>Registrarme</h2>
+		
+
+<form action="https://formspree.io/f/mzzbzwzk" method="POST">
+	<br>
+<label for="nombre">Nombre:</label>
+<br>
+<input type="text" placeholder="Nombre" id="nombre" name="nombre" required>
+<br>
+<label for="email">Correo electrónico:</label>
+<br>
+<input type="email" placeholder="email" id="email" name="email" required>
+<br>
+<label for="firstname">Contraseña: </label>
+<br>
+<input type="password" placeholder="Contraseña" name="clave" size="25">
+<br>
+<label for="mensaje">Mensaje:</label>
+<br>
+<textarea placeholder="Ingrese aquí un mensaje..." id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+<br>
+
+<!---->
+
+<!---->
+
+<br>
+<button type="reset">Reset</button>
+<br><br>
+<button type="submit">Enviar</button>
+</form>
+
+
+
+
+		
+		
+		
+		<!--Dejanos saber mas de ti-->
+		<br><br>
+		
+	<h3>Dejanos saber mas sobre tí:</h3>	
+	<form action="https://formspree.io/f/mzzbzwzk" method="POST">
+		
+		<br>
+		<p>Género:
+		<input type="radio" name="gender" value="hombre" checked>Hombre
+		<input type="radio" name="gender" value="Mujer">Mujer
+		<input type="radio" name="gender" value="otro">Otro
+		</p>
+		
+		
+		
+		<label for="street">Dirección:</label>
+		<input type="text" name="address" placeholder="Ingrese su direccióm aquí...">
+		
+		<br><br>
+		<label for="zipcode">Código Postal</label>
+		<input type="text" name="zipcode" placeholder="Ingrese su codigo postal aquí...">
+		<br><br>
+		<label for="telefono">telefono</label>
+		<input type="tel" name="telefono" placeholder="Ingrese en su telefono aquí...">
+		<br><br>
+		<label for="birthdate">Fecha Nac.(mm/dd/yyyy):</label>
+		<input type="date" name="birthdate">
+
+	<br><br>
+
+	<label for="estudios">Estudios:(Select)</label>
+	<select id="estudios" name="Estudios">
+	<option value="primaria">Primaria</option>
+	<option value="secundaria">Secundaria</option>
+	<option value="terciario">Terciario</option>
+	<option value="Universitario">Universitario</option>
+	</select>
+	<br><br>  
+ 
+	<br>
+		
+
+  <h4>¿Cual es su categoría de lectura favorita?</h4>
+		<input type="checkbox" name="opcion" value="1">Matemáticas
+		<input type="checkbox" name="opcion" value="1">Tecnología
+		<input type="checkbox" name="opcion" value="1">Ficción
+		<input type="checkbox" name="opcion" value="1">Desarrollo personal
+		<input type="checkbox" name="opcion" value="1">Sociedad y Ciencias Sociales
+		<input type="checkbox" name="opcion" value="1">No Categorizado
+		<br>
+		<br>
+		
+		
+		<br>
+		<br>
+		
+	<p>Dejanos un comentario o consulta:</p>	
+	<br>
+	<textarea name="comentario" rows="10" cols="40">Escribe tu consulta ...</textarea>
+	<br>
+		
+		<!--boton borrar-->
+		<input type="reset" value="borrar">
+		<br><br>
+		<button type="submit">Enviar</button>
+
+	</form>
+
+	 </main>
+
+</body>
+<br><br><br>
+<footer>
+        <a href="mailto:aprendiz.libros@gmail.com">aprendiz.libros@gmail.com</a>
+       
+ </footer>
+
+</html>
